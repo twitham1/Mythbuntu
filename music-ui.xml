@@ -2338,6 +2338,15 @@
             <area>780,375,750,52</area>
         </textarea>
 
+        <textarea name="discnumlbl" from="titlelbl">
+            <area>1065,375,225,52</area>
+            <value>Disc No.:</value>
+        </textarea>
+
+        <textarea name="discnum" from="title">
+            <area>1320,375,150,52</area>
+        </textarea>
+
         <textarea name="tracknumlbl" from="titlelbl">
             <area>1065,300,225,52</area>
             <value>Track No.:</value>

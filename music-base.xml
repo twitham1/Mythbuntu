@@ -722,6 +722,9 @@
             <font>basesmall</font>
             <align>right,vcenter</align>
         </textarea>
+        <textarea name="discnum" from="year">
+            <position>1350,120</position>
+        </textarea>
         <textarea name="tracknum" from="year">
             <position>1400,120</position>
         </textarea>
