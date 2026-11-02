@@ -171,6 +171,17 @@
 
     <!-- some copy-n-paste from playlistview above for similar layout -->
     <window name="trackslyricsview" include="music-base.xml">
+
+        <shape name="titlebox" from="musicbox">
+            <area>15,15,1170,90</area>
+            <cornerradius>45</cornerradius>
+        </shape>
+        <textarea name="title" from="basetextarea">
+            <area>75,15,1050,90</area>
+            <font>baselarge</font>
+            <align>vcenter,left</align>
+        </textarea>
+
         <shape name="clockbox" from="musicbox">
             <area>1200,15,690,90</area>
             <cornerradius>45</cornerradius>
